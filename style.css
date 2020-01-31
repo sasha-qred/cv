@@ -6,6 +6,12 @@
   --alt-accent-color: #fe4a49;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    filter: invert(100%);
+  }
+}
+
 html {
   background-color: var(--primary-color);
   color: var(--primary-color);
