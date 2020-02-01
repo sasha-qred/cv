@@ -30,6 +30,23 @@ body {
   background-color: var(--secondary-color);
 }
 
+.intro {
+  display: flex;
+  align-items: flex-start;
+}
+
+.intro .intro-pic {
+  line-height: 0;
+}
+
+.intro .intro-desc {
+  flex-grow: 1;
+}
+
+.intro section {
+  margin-bottom: 0;
+}
+
 header {
   display: flex;
   align-items: center;
