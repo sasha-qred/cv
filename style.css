@@ -33,6 +33,7 @@ body {
 .intro {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .intro .intro-pic {
@@ -41,6 +42,7 @@ body {
 
 .intro .intro-desc {
   flex-grow: 1;
+  flex-basis: 60%;
 }
 
 .intro section {
@@ -49,7 +51,7 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   justify-content: space-between;
 
@@ -130,6 +132,11 @@ a:focus {
 
 a:focus {
   outline-color: var(--alt-accent-color);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 .linear-list {
