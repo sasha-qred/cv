@@ -7,7 +7,8 @@
 }
 
 @media screen and (prefers-color-scheme: dark) {
-  :root {
+  :root,
+  img {
     filter: invert(100%);
   }
 }
