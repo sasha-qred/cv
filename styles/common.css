@@ -1,0 +1,109 @@
+html {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+@media print {
+  html {
+    background-color: initial;
+  }
+}
+
+body {
+  margin: 2em auto;
+  padding: 2em 3em;
+  max-width: 900px;
+  background-color: var(--secondary-color);
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: initial;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+ul,
+p,
+dl {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+ul,
+p,
+dl,
+dd,
+dt {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+ul:last-child,
+p:last-child,
+dl:last-child,
+dd:last-child,
+dt:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--action-accent-color);
+}
+
+a:focus {
+  outline-color: var(--alt-accent-color);
+}
+
+@media print {
+  a[href^="http"]:after,
+  a[href^="mailto:"]:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}

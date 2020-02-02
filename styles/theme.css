@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #1e1e24;
+  --secondary-color: #fdfdfd;
+  --accent-color: #7e52a0;
+  --action-accent-color: #bc96e6;
+  --alt-accent-color: #fe4a49;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root,
+  img {
+    filter: invert(100%);
+  }
+}
+
+@media print {
+  :root {
+    --secondary-color: white;
+    --primary-color: black;
+  }
+}
