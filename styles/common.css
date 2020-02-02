@@ -71,6 +71,10 @@ dl {
   margin-left: 0;
 }
 
+dd {
+  margin-left: 2rem;
+}
+
 ul,
 p,
 dl,
