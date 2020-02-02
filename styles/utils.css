@@ -16,21 +16,21 @@
 }
 
 .block-list {
-  padding-left: 1rem;
+  padding-left: var(--adaptive-md);
   list-style-type: none;
 }
 
 .block-list li {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--adaptive-md);
+  padding-right: var(--adaptive-md);
 }
 
 .block-list li:not(:first-child) {
-  padding-top: 1rem;
+  padding-top: var(--adaptive-md);
 }
 
 .block-list li:not(:last-child) {
-  padding-bottom: 1rem;
+  padding-bottom: var(--adaptive-md);
   border-bottom: 1px dashed var(--alt-accent-color);
 }
 

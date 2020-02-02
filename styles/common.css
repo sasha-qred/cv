@@ -13,7 +13,7 @@ html {
 @media screen {
   body {
     margin: auto;
-    padding: 2rem 3rem;
+    padding: var(--adaptive-lg) var(--adaptive-xl);
     max-width: 900px;
     background-color: var(--secondary-color);
   }
@@ -38,15 +38,15 @@ html {
 }
 
 section {
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: var(--adaptive-lg) auto;
+  padding: 0 var(--adaptive-md);
 }
 
 h1,
 h2,
 h3 {
   font-weight: normal;
-  margin: 0.5rem 0;
+  margin: var(--adaptive-sm) 0;
 }
 
 h1 {
@@ -55,13 +55,13 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-  margin: 0.5rem 0;
+  margin: var(--adaptive-sm) 0;
 }
 
 h3 {
   font-size: 1.2rem;
   margin: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--adaptive-sm);
 }
 
 ul,
@@ -72,7 +72,7 @@ dl {
 }
 
 dd {
-  margin-left: 2rem;
+  margin-left: var(--adaptive-lg);
 }
 
 ul,
