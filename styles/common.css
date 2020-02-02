@@ -12,10 +12,24 @@ html {
 
 @media screen {
   body {
-    margin: 2rem auto;
+    margin: auto;
     padding: 2rem 3rem;
     max-width: 900px;
     background-color: var(--secondary-color);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    margin-top: calc(50vw - 28.125rem);
+    margin-bottom: calc(50vw - 28.125rem);
+  }
+}
+
+@media screen and (min-width: 964px) {
+  body {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
