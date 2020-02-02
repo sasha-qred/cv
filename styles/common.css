@@ -1,28 +1,21 @@
 html {
-  background-color: var(--primary-color);
   color: var(--primary-color);
   font-family: sans-serif;
   font-size: 100%;
 }
 
-@media print {
+@media screen {
   html {
-    background-color: initial;
+    background-color: var(--primary-color);
   }
 }
 
-body {
-  margin: 2rem auto;
-  padding: 2rem 3rem;
-  max-width: 900px;
-  background-color: var(--secondary-color);
-}
-
-@media print {
+@media screen {
   body {
-    margin: 0;
-    padding: 0;
-    background-color: initial;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    max-width: 900px;
+    background-color: var(--secondary-color);
   }
 }
 
